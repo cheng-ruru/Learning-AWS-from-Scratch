@@ -5,7 +5,7 @@
 本專案將介紹各種與 AWS 相關的功能。
 
 ## 目錄
-- [AWS Bedrock 介紹][(AWS-Bedrock)
+- [AWS Bedrock 介紹](AWS-Bedrock)
 - [AWS Lambda 介紹](AWS-Lambda.md)
 - [AWS S3 介紹](AWS-S3.md)
 - [AWS EC2 介紹](AWS-EC2.md)
