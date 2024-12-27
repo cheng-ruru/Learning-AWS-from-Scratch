@@ -1,0 +1,62 @@
+# AWS EFS 掛載至 EC2 教學
+
+## 目標
+
+作為 AWS 解決方案架構師，我希望學習如何在 EC2 上掛載 EFS 檔案系統，以便未來可以用技術語言與研發團隊（RD）進行有效的溝通。
+
+## 驗收標準 (Acceptance Criteria)
+
+1. 已建立好一組 EFS 檔案系統，內含一個資料夾 "success"
+2. 啟動一台 EC2 Instance - Amazon Linux 2023
+3. 連線到這台 Instance
+4. 依序執行以下指令，最後一個指令執行結束後，即可看到畫面上出現 "success" 的資料夾，代表已成功掛載檔案系統
+
+### 步驟一：掛載 EFS 至 EC2
+
+```bash
+// 更新 EFS 工具
+sudo yum install -y amazon-efs-utils
+
+// 建立資料夾
+sudo mkdir awssa
+
+// 確認資料夾是否已建立完成
+ls
+
+// 掛載 EFS
+sudo mount -t efs fs-050d3f89b7dc8206f:/ awssa
+
+// 移動到掛載好的資料夾
+cd awssa
+
+// 顯示列表 (確認裡面是否有檔案)
+ls
+
+進階測試：改用 TLS 掛載 EFS
+// 回到上一層資料夾
+cd ..
+
+// 卸載 EFS
+sudo umount awssa
+
+// 移動到資料夾
+cd awssa
+
+// 確認沒有任何檔案代表已卸載成功
+ls
+
+// 回到上一層資料夾
+cd ..
+
+// 使用 TLS 掛載 EFS
+sudo mount -t efs -o tls fs-050d3f89b7dc8206f:/ awssa
+
+// 移動到掛載好的資料夾
+cd awssa
+
+// 顯示列表
+ls
+
+進階練習
+使用自己建立好的 EFS，掛載成功並在 EFS 建立一個 success 資料夾。
+
