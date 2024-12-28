@@ -1,6 +1,8 @@
 # Learning-AWS-from-Scratch
 從零開始學AWS Re：Learning AWS
+
 👋 Hi, I’m @cheng-ruru
+
 👀 I’m interested in cloud security, AWS, and community building, as well as cross-disciplinary learning in HR, finance, and accounting.
 
 🌱 I’m currently learning more about cloud security and AWS solutions, while also expanding my knowledge in HR, finance, and accounting.
