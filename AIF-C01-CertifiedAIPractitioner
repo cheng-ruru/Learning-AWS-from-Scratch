@@ -1,0 +1,49 @@
+# AI Learning Notes-AIF-C01-CertifiedAIPractitioner
+
+## 基礎 AI 概念
+- **監督式學習**：利用標籤數據進行模型訓練。
+- **非監督式學習**：適用於客戶分層和聚類分析。
+- **大型語言模型 (LLM)**：用於文本生成和處理。
+- **生成對抗網絡 (GAN)**：用於生成合成數據。
+- **嵌入技術 (Embeddings)**：文本和概念的數值表示。
+
+## 安全性相關
+- **AWS Audit Manager**：自動生成合規性報告。
+- **AWS CloudTrail**：用於追踪未授權訪問。
+- **Amazon Bedrock 的 Guardrails 功能**：內容安全和過濾。
+- **Amazon Macie**：敏感數據檢測與保護。
+
+## Amazon AI 相關功能與應用
+- **Amazon Bedrock**：生成式 AI 應用（例如基礎模型的應用、Guardrails、Agents）。
+- **Amazon SageMaker**：包括 Serverless Inference、Clarify（偏差檢測）、Ground Truth Plus（數據標註）、Data Wrangler、Canvas（無需編碼的機器學習）、Feature Store 等。
+- **Amazon Comprehend**：情感分析和主題建模。
+- **Amazon OpenSearch Service**：支持向量數據庫應用（Nearest Neighbor Search）。
+- **Amazon Textract**：從文件中提取文字。
+- **Amazon Transcribe**：將音頻轉錄為文本。
+- **AWS Glue**：ETL 工具，將非結構化數據轉為結構化格式。
+
+---
+
+## 學習心得分享
+
+在學習 AI 的過程中，我發現以下幾點對掌握相關知識與技能非常重要：
+
+1. **持續學習基礎概念**：基礎 AI 概念如監督式學習、非監督式學習和嵌入技術是許多應用的核心。了解這些概念有助於快速上手更多進階技術。
+
+2. **實踐與應用**：通過練習不同 AWS AI 服務（例如 Amazon SageMaker 或 Amazon Bedrock），能夠更深入了解其使用場景與最佳實踐。
+
+3. **關注安全性**：使用 AI 應用時，安全性與合規性非常重要，像 AWS CloudTrail 和 Amazon Bedrock 的 Guardrails 功能提供了很好的保護機制。
+
+4. **廣泛參考資源**：學習 AI 時，可以多參考官方文件。
+
+---
+
+## 推薦參考文件
+
+以下是一些有助於深入學習的文檔和資源：
+
+- [AWS AI 官方文件](https://aws.amazon.com/machine-learning/)
+- [Amazon SageMaker Developer Guide](https://docs.aws.amazon.com/sagemaker/)
+- [Amazon Bedrock 入門指南](https://docs.aws.amazon.com/bedrock/)
+- [Amazon Q](https://aws.amazon.com/tw/q/?nc2=h_ql_prod_l1_q)
+
