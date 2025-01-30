@@ -19,7 +19,7 @@
 
 ## 目錄
 - [AWS Bedrock 介紹](AWS-Bedrock)
-- 
+- [S3 相關文章](https://medium.com/@irene119110/s3-b6f598bdaf6a)
 - 
 - 
 
