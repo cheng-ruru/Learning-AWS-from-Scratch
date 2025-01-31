@@ -21,6 +21,7 @@
 - [AWS Bedrock 介紹](AWS-Bedrock)
 - [S3 相關文章](https://medium.com/@irene119110/s3-b6f598bdaf6a)
 - [S3 步驟](https://github.com/cheng-ruru/Learning-AWS-from-Scratch/commit/f2975ee8547577afcab53c667a05206073f4a1ef#commitcomment-151984977)
+- [S3 Website](65519db9d5ab39293698f9e20aecb18288d3384f)
 - 
 - 
 
